@@ -1,0 +1,151 @@
+*{
+    font-family: calibri;
+}
+nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin: 0px;
+    list-style-type: none;
+    width: auto;
+}
+nav li{
+    display: inline;
+    border-left-color: cornflowerblue;
+    border-left-style: solid;
+    flex: inline;
+    flex-wrap: nowrap;
+    height: 30px;
+    margin-right: 12px;
+    padding-left: : 5px;
+    text-align: right;
+    text-decoration: none;
+    width: auto;
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+p{
+    color: #0C506F;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
+}
+h2{
+    color: cornflowerblue;
+    border-bottom-color: cornflowerblue;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 1px;
+}
+.imgHead{
+    height: 120px;
+    padding: 0px;
+    width: 100%;
+}
+.header{
+    margin-left: 0px;
+    padding: 0px;
+}
+.row{
+    width: 100%;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: auto;
+    padding: 5px;
+    width: 30%
+}
+.textService{
+    text-align: center;
+}
+.imgService{
+    border-radius: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    width: 120px;
+}
+.imgNews{
+    border-radius: 5px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%
+}
+.imgMember{
+    height: auto;
+    width: 95%;
+}
+.news{
+    height: auto;
+    margin-left: 0px;
+    margin-right: auto;
+    padding: 5px;
+    width: 45%;
+}
+.member{
+    height: auto;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding: 3px;
+    width: 23%;
+}
+.name{
+    border-bottom-color: #4F6897;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: #4F6897;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+.button{
+    background: white;
+    border-color: cornflowerblue;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color: cornflowerblue;
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    margin: 5px;
+    width: 95%;
+}
+.footer{
+    background: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.sectionFooter{
+    border-right-color: white;
+    border-right-style: solid;
+    border-right-width: 1px;
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 50%
+}
+.textFooter{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
